@@ -39,6 +39,8 @@ console.log(results2);
 
 console.log(assertArraysEqual(([1, 2, 5, 7, 2]), results1));
 
+module.exports = takeUntil
+
 
 
 

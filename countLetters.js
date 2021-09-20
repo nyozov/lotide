@@ -20,4 +20,5 @@ const countLetters = (sentence) => {
 };
 
 console.log(countLetters("str with spaces"));
+module.exports = countLetters
 

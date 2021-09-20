@@ -1,3 +1,5 @@
+const { builtinModules } = require('module');
+
 const eqArrays = (arr1, arr2) => {
   for (let i = 0; i < arr1.length; i++) {
     for (let y = 0; y < arr2.length; y++) {
@@ -44,3 +46,5 @@ const assertObjectsEqual = (actual, expected) => {
 
 assertObjectsEqual({name: "john", age: 20}, {name: "john", age: 20 });
 assertObjectsEqual({name: "john", age: 20}, {name: "john", age: 21 });
+
+module.exports = assertObjectsEqual
